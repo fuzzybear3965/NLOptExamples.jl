@@ -1,5 +1,10 @@
 module NLoptExamples
+import NLopt
+import ForwardDiff
 
-# package code goes here
+include("quadratic.jl")
+include("data_fit.jl")
 
+export quadratic_ex
+export optim_data
 end # module
